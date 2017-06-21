@@ -1,0 +1,1087 @@
+/*****************************************************
+
+	Template Name: Medico -Medical and Health Responsive Template 
+	Author: BootstrapLayouts
+	URI: http://www.bootstraplayouts.com
+
+*********************************************************/
+html,body{
+	height:100%;
+}
+.line{
+	width:40px;
+	
+}
+.fixed{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:9999;
+}
+.nopadding{
+	padding:0px !important;
+}
+
+.addpadding{
+	padding-top:80px !important;
+	padding-bottom:90px !important; 
+}
+
+@media (max-width:500px){
+	.web_heading h1{
+		font-size:25px;
+	}
+}
+
+/**Header Section Starts**/
+
+header .top_bar .fa{
+	margin-right:10px;
+}
+
+.top_bar {
+	padding-top:10px;
+}
+
+.navbar-default{
+	border:0px;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+.navbar-default .navbar-brand a{
+	text-decoration:none;
+	font-size:25px;
+}
+
+.navbar-default .navbar-brand #plus_sign{
+	font-size:30px;
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+	.navbar-default .navbar-brand a{
+		font-size:15px;
+		margin-top:0px !important;
+		padding:0px !important;
+	}
+	
+	.navbar-default .navbar-brand #plus_sign{
+		font-size:15px;
+		margin-top:0px !important;
+		padding:0px !important;
+	}
+	
+}
+
+@media (max-width:768px){
+	
+	.top_bar{
+		display:none;
+	}
+	.navbar-default{
+		margin-top:0px;
+	}
+}
+
+/**Header Section Ends**/
+
+
+/**Dentist Navbar Section Starts**/
+
+#dentist .navbar-nav  li  a{
+	line-height:80px;
+	margin-left:40px;
+}
+
+#dentist .navbar-default{
+	border-bottom:0px;
+}
+
+#dentist .navbar-default .navbar-brand{
+	padding:10px 10px 0px 10px;
+
+}
+
+#dentist .navbar-brand { 
+	height:auto;
+}
+
+#dentist .navbar-brand  a{
+	line-height:80px;
+	height:auto;
+	text-decoration:none;
+	color:white;
+}
+
+#dentist .navbar-default .navbar-nav li a{
+	padding:10px 10px 10px 10px;
+	font-size:15px;
+}
+
+#dentist .text-logo {
+	line-height:90px;
+	height:90px; 
+	font-size: 22px; 
+	color:#FFF;
+}
+
+@media (min-width:769px) and (max-width:991px){
+	
+	#dentist .navbar-brand  a {
+		line-height:80px;
+		height:80px;
+	}
+
+	#dentist .navbar-brand  img { 
+		max-width:175px; 
+	}
+	
+	#dentist .navbar-nav  li  a{
+		margin-left:0px;
+	}
+	
+	#dentist .navbar-right{
+		display:none;
+	}
+
+}
+
+
+@media (max-width:768px){
+	
+	#dentist .navbar-brand a{
+		line-height:30px;
+		height:30px;
+	}
+
+	#dentist .navbar-nav li a{
+		margin-left:0px;
+		margin-bottom:0px;
+		line-height:2;
+	}
+
+	#dentist .navbar-fixed-top{
+		min-height:40px;
+	}
+
+}
+/**Dentist Navbar Section Ends**/
+
+
+/**Home Section Starts**/
+
+#home{
+	margin-top:0px;
+}
+
+.title_page {
+	height:auto;
+}
+
+.title_page .container .row{
+	padding-top:50px;
+}
+
+.title_page .owl-carousel{
+	padding:170px 0px 170px 0px;
+
+}
+.title_page .owl-carousel .item h1{
+	font-size:90px;
+	color:white;
+	margin-bottom:60px;
+}
+
+@media (max-width:980px){
+	.title_page .owl-carousel{
+		padding:90px 0px 90px 0px;
+	}
+	
+	.title_page .owl-carousel .item h1{
+	font-size:80px;
+	margin-bottom:45px;
+	}
+	.title_page {
+	height:auto;
+	}
+}
+
+@media (max-width:800px){
+	.title_page .owl-carousel{
+		padding:90px 0px 90px 0px;
+	}
+	
+	.title_page .owl-carousel .item h1{
+	font-size:60px;
+	margin-bottom:45px;
+	}
+	.title_page {
+	height:auto;
+	}
+}
+
+
+@media (max-width:768px){
+	.title_page .owl-carousel{
+		padding:90px 0px 90px 0px;
+	}
+	
+	.title_page .owl-carousel .item h1{
+	font-size:50px;
+	margin-bottom:45px;
+	}
+	.title_page {
+	height:auto;
+	}
+}
+
+@media (max-width:500px){
+	.title_page .owl-carousel{
+		padding:90px 0px 90px 0px;
+	}
+	
+	.title_page .owl-carousel .item h1{
+	font-size:40px;
+	margin-bottom:45px;
+	}
+	.title_page {
+	height:auto;
+	}
+}
+
+@media (max-width:360px){
+	.title_page .owl-carousel{
+		padding:90px 0px 90px 0px;
+	}
+	
+	.title_page .owl-carousel .item h1{
+	font-size:30px;
+	margin-bottom:45px;
+	}
+	.title_page {
+	height:auto;
+	}
+}
+
+/**Home Section Ends**/
+
+
+/**About Starts**/
+
+#about .container{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#about .container{
+	visibility:hidden;
+}
+
+#about .web_heading h1{
+	font-weight:bold;
+}
+
+#about .row .col-sm-4 img{
+	padding:30px 0px 30px 0px;
+
+}
+
+#web_about_text h4{
+	line-height:2.5;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+@media (max-width:768px){
+	#about .container{
+		text-align:center;
+	}
+}
+
+@media (max-width:500px){
+	#web_about_text h4{
+		line-height:1.7;
+		font-size:16px;
+	}
+}
+/**About Ends**/
+
+
+/**Promotional Section Starts**/
+
+#web_promotional_1{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+#web_promotional_1 .container{
+	visibility:hidden;
+}
+
+#web_promotional_1 .promotional_box{
+	padding:20px;
+}
+
+#web_promotional_1 .col-sm-12 h1{
+	font-weight:bold;
+}
+
+
+@media (max-width:768px){
+
+	.promotional_box{
+		margin-top:30px;
+	}
+}
+
+/**Promotional Section Ends**/
+
+
+
+/**Services Section Starts**/
+
+#services{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#services .container{
+	visibility:hidden;
+}
+
+#services .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#services .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#services .row img{
+	height:130px;
+}
+
+#services .col-sm-4{
+	margin-top:50px;
+}
+#services .col-sm-4 .fa{
+	font-size:50px;
+}
+
+@media (max-width:768px){
+	#services .col-sm-4{
+		margin-top:40px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#services .col-sm-6{
+		margin-bottom:10px;
+		padding:30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	#services .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (max-width:768px){
+	
+	#services .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+/**Services Section Ends**/
+
+
+/**Dentist Services Section Starts**/
+
+#dentist_services{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#dentist_services .container{
+	visibility:hidden;
+}
+
+#dentist_services .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#dentist_services .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+.dentist_block .col-sm-4{
+	padding:10px 10px 20px 10px;
+	margin-right:px;
+}
+
+.dentist_block h3{
+	font-weight:bold;
+}
+
+.dentist_block button{
+	font-weight:bold;
+	margin-top:20px;
+}
+
+@media (max-width:768px){
+	#dentist_services .col-sm-4{
+		margin-top:40px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	#dentist_services .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (max-width:768px){
+	
+	#dentist_services .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+/**Dentist Services Section Ends**/
+
+
+/**Pet Clinic Service Section Starts**/
+
+
+#pet_services{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#pet_services .container{
+	visibility:hidden;
+}
+
+#pet_services .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#pet_services .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+.pet_block{
+	padding:15px 5px 15px 5px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.pet_block p{
+	line-height:1.7;
+	margin-bottom:20px;
+}
+
+.pet_block img{
+	height:300px;
+	width:100%;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	#pet_services .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (max-width:768px){
+	
+	#pet_services .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+@media (max-width:500px){
+	.pet_block{
+	padding:15px 5px 15px 5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	}
+}
+/**Pet Clinic Service Section Ends**/
+
+
+/**Features Section Starts**/
+
+#features{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#features .container{
+	visibility:hidden;
+}
+
+#features .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#features .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#features #row1{
+	margin-bottom:25px;
+}
+
+#features .col-sm-4 .fa{
+	font-size:70px;
+	margin-top:50px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	
+	#features .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (max-width:768px){
+	
+	#features .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+/**Features Section Ends**/
+
+
+
+/**Why Choose Us Section Starts**/
+
+#why_choose{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#why_choose .container{
+	visibility:hidden;
+}
+
+#why_choose .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#why_choose .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#why_choose .row #content_text .row .col-sm-6{
+	margin-top:10px;
+}
+#why_choose .row #content_text .row .col-sm-6 p{
+	line-height:2;
+}
+
+#why_choose .row #content_text .row .col-sm-6 .fa{
+	font-size:50px;
+}
+
+#why_choose .row #content_image img{
+	height:620px;
+	width:100%;
+}
+
+@media (max-width:980px){
+	
+	#why_choose .row #content_image img{
+		margin-top:20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1200px){
+	
+	#why_choose .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (max-width:768px){
+	
+	#why_choose .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+@media (max-width:768px){
+	#why_choose .row #content_text{
+		text-align:center;
+	}
+}
+
+/**Why Choose Us Section Ends**/
+
+
+/**Team Section Starts**/
+
+#team{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#team .container{
+	visibility:hidden;
+}
+
+#team .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#team .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#team .fa{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	font-size:20px;
+	padding:5px;
+	margin-top:15px;
+}
+
+.team_block{
+	padding:0px 0px 10px 0px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.team_block h3{
+	font-weight:bold;
+	padding:5px;
+	height:35px;
+	margin-top:0px;
+}
+
+
+.team_block p{
+		line-height:2;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	
+	#team .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	#team .col-sm-6{
+		margin-bottom:10px;
+		padding:30px;
+	}
+}
+
+
+@media (max-width:768px){
+	
+	#team .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	.team_block{
+		margin-bottom:20px;
+		padding:0px 0px 10px 0px !important; 
+		margin-right:1px;
+		margin-left:1px;
+	}
+
+}
+
+
+@media (max-width:500px){
+	.team_block h3{
+		font-size:18px;
+	}
+	
+	.team_block h4{
+		font-size:14px;
+	}
+	.team_block{
+		padding:0px 0px 10px 0px !important; 
+	}
+}
+
+/**Team Section Ends**/
+
+
+/**Time Tabel Section Starts**/
+
+#time_table{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#time_table .container{
+	visibility:hidden;
+}
+
+#time_table .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#time_table .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#time_table .fa{
+	font-size:50px;
+}
+
+.time_table_block h3{
+	height:60px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:18px;
+	font-weight:bold;
+}
+
+.time_table_block h4{
+	margin-top:0px;
+	padding:15px 0px 15px 0px;
+}
+
+.time_table_block{
+	padding:0px 0px 20px 0px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+.time_table_block ul{
+	list-style-type:none;
+	padding:0px;
+}
+
+.time_table_block ul li{
+	line-height:3;
+	font-size:16px;
+}
+
+
+.time_table_block button{
+	padding:10px;
+	border-radius:0px;
+}
+
+@media (max-width:768px){
+	#time_table .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	.time_table_block{
+		margin-bottom:20px;
+		padding:40px;
+	}
+}
+
+/**Time Table Section Ends**/
+
+
+/**Price Table Section Starts**/
+#price_tbl .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#price_tbl .container{
+	visibility:hidden;
+}
+
+#price_tbl .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+.price_table{
+	border:0px solid transparent;
+}
+.no-padding{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+/**Heading**/
+
+.price_heading{
+	height:44px;
+}
+
+.price_heading h3{
+	margin-top:0px;
+	padding:10px;
+	font-weight:bold;	
+}
+
+/**Columns**/
+
+#price_tbl{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#price_tbl .col-xs-12.col-sm-12.col-md-4.col-lg-4{
+	overflow:hidden;
+}
+
+/**Price**/
+
+#price_tbl.price_rupees{
+	border:0px solid transparent;
+}
+
+#price_tbl .price_rupees h1{	
+	color:white;
+	font-size:70px;
+	font-weight:bold;
+	margin-bottom:0px;
+	padding:20px 0px 10px 0px;
+}
+
+#price_tbl .price_rupees h3{
+	font-weight:bold;
+	color:white;
+	margin-top:0px;
+}
+
+/**Unordered List**/
+
+#price_tbl .price_table ul{
+	list-style-type:none;
+}
+
+#price_tbl .price_lines{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#price_tbl .price_linea{
+	line-height:3;
+}
+
+#price_tbl .price_lineb{
+	line-height:3;
+}
+
+/**Button**/
+
+#price_tbl .price_table .price_button .btn-default{
+	
+	border:0px;
+	border-radius:0px;
+	margin-top:30px;
+	margin-bottom:30px;
+	box-shadow:2px 2px 2px black;
+}
+
+/**Media Query **/
+@media (min-width: 768px) and (max-width: 1200px){
+
+	#price_tbl .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#price_tbl .col-sm-6{
+		margin-bottom:5px;
+		
+	}
+}	
+
+
+@media (max-width: 768px) 
+{
+	#price_tbl .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	#price_tbl .col-xs-12{
+		margin-bottom:10px;
+	}
+	
+}
+
+/**Price Table Section Starts**/
+
+
+/**Contact Section Starts**/
+
+#contact{
+	padding-top:50px;
+	padding-bottom:50px;
+	max-width:100%;
+}
+
+#contact .container{
+	visibility:hidden;
+}
+
+#contact .web_heading p{
+	font-size:17px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+
+#contact .web_heading h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#contact_form input{
+	border-radius:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	box-shadow:none;
+}
+
+#contact_form input:focus{
+	outline:none;
+}
+
+#contact_form textarea{
+	border-radius:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	box-shadow:none;
+}
+
+#contact_form .button .btn-default{
+	border:0px;
+	border-radius:0px;
+	margin-top:35px;
+	padding:12px;
+}
+
+.address{
+	margin-bottom:20px;
+}
+.address_text_icon{
+	margin-bottom:40px;
+}
+
+.address_text_icon .fa{
+	font-size:60px;
+	margin-bottom:10px;
+}
+
+@media (max-width:768px){
+
+	#contact .web_heading p{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	.address{
+		margin-top:50px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+
+	#contact .web_heading p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+}
+
+/**Contact Section Ends**/
+
+
+/**Footer Section Starts**/
+
+#footer{
+	padding-top:25px;
+	padding-bottom:20px;
+}
+
+#footer .col-sm-8{
+	padding-top:10px;
+}
+
+#footer #link a{
+	
+}
+#footer .fa{
+	font-size:20px;
+	padding:10px;
+	height:40px;
+	width:40px;
+}
+
+@media (max-width: 768px){
+
+	#footer .col-sm-8{
+		text-align:center;
+	}
+	#footer .col-sm-4{
+		text-align:center;
+		
+	}
+	
+}
+
+/**Footer Section Ends**/

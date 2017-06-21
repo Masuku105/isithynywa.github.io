@@ -1,0 +1,306 @@
+/*****************************************************
+
+	Template Name: Medico -Medical and Health Responsive Template 
+	Author: BootstrapLayouts
+	URI: http://www.bootstraplayouts.com
+
+*********************************************************/
+.web_heading h1{
+	color:#006622;
+}
+
+.line{
+	border:3px solid #00e64d;	
+}
+
+
+/**Header Section Starts**/
+
+
+.navbar-default{
+	background-color:#00b33c;
+}
+
+.navbar-default .navbar-brand a{
+	color:white;
+}
+
+.navbar-default .navbar-nav li a{
+	color:white;
+}
+
+.navbar-header button {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color:#00e64d;
+	color:White;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color:#00e64d;
+	color:White;
+}
+
+/**Header Section Ends**/
+
+
+/**OWl Carousel Starts**/
+
+.title_page {
+	background:linear-gradient(rgba(0, 153, 51, 0.2),rgba(0, 153, 51, 0.2)), url("../Zimbali/The_Sanctuary/background.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:grey;
+}
+
+#owl-demo1 .owl-theme .owl-controls .owl-page.active span {
+    background-color: white;
+    border: 2px solid white;
+}
+
+#owl-demo1 .owl-theme .owl-controls .owl-page span {
+    border: 2px solid white;
+}
+
+/**OWl Carousel Ends**/
+
+
+/** Web Promotional Section Starts**/
+
+#web_promotional_1{
+	color:white;
+	background:linear-gradient(rgba(0, 153, 51, 0.2),rgba(0, 153, 51, 0.2)), url(../gallery/quote.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+/** Web Promotional Section Ends**/
+
+
+/**Features Section Starts**/
+
+#features .col-sm-4 .fa{
+	color:#00cc44;
+}
+
+
+/**Features Section Ends**/
+
+
+/**Pet Services Section Starts**/
+
+
+.pet_block{
+	color:black;
+	border:1px solid #009933;
+	border-top:10px solid #009933;
+}
+
+
+.pet_block h3{
+	color:#009933;
+}
+
+.pet_block button{
+	border:1px solid #009933;
+	color:#009933;
+}
+.pet_block button:hover{
+	background-color:#009933;
+	color:White;
+}
+/**Pet Services Section Ends**/
+
+
+
+
+/**Why Choose Us Section Starts**/
+
+#why_choose{
+	background-color:#e6ffee;	
+}
+
+#why_choose .row #content_text .fa{
+	color:#00e64d;	
+}
+
+#why_choose .row #content_text h3{
+	color:#006622;
+}
+/**Why Choose Us Section Ends**/
+
+
+/**Team Section Starts**/
+
+#team .fa{
+	color:#00cc44;
+}
+
+.team_block{
+	color:black;
+	background-color:#e6ffee;
+}
+
+.team_block h3{
+	background-color:#00cc44;
+	color:White;
+}
+
+.team_block h4{
+	color:#595959;
+}
+
+.team_block:hover h3{
+	background-color:#009933;
+}
+
+.team_block:hover h4{
+	color: #008000;
+}
+
+#team .team_block .fa:hover {
+	color:#4dff88 !important;
+}
+
+#team .team_block:hover .fa{
+	color:white;
+	background-color:#009933;
+}
+
+/**Team Section Ends**/
+
+
+/**Price Table Section Starts**/
+
+#price_tbl{
+	background-color:#e6ffee;
+}
+
+.price_table{
+	background-color:#5cd65c;
+	border:1px solid white;
+}
+
+/**Heading**/
+
+.price_table .price_heading{
+	background-color:#2eb82e;
+	color:white;
+}
+
+#price_tbl .price_rupees h1{
+	color:#006622;
+}
+
+#price_tbl .price_rupees h3{
+	color:#006622;
+}
+/**Columns**/
+
+.price_table .col-xs-12.col-sm-6.col-md-3.col-lg-3:hover{
+	background-color:#800080;
+	overflow:hidden;
+}
+
+/**Unordered List**/
+
+.price_table .price_lines{
+	background-color:white;
+}
+
+.price_table .price_linea{
+	color:grey;
+	background-color:#b3ffcc;
+}
+
+.price_table .price_lineb{
+	color:#4d4d4d;
+	background-color:#80ffaa;
+}
+
+/**Button**/
+
+.price_table .price_button .btn-default{
+	background-color:#2eb82e;
+	color:white;
+}
+
+.price_table .price_button  .btn-default:hover{
+	background-color:#1f7a1f;
+	color:white;
+}
+
+/**Price Table Section Ends**/
+
+
+/**Contact Section Starts**/
+
+#contact{
+	background-color:#006622;
+	color:white;
+}
+
+#contact .web_heading h1{
+	color:#00cc44;
+}
+
+#contact .line{
+
+}
+.address_text_icon .fa{
+	color:#00e64d;
+}
+
+#contact_form input{
+	background-color:transparent;
+	color:white;
+
+}
+
+#contact_form input:focus{
+	outline:none;
+}
+
+#contact_form textarea{
+	background-color:transparent;
+	color:white;
+}
+
+#contact_form .button .btn-default{
+	color:white;
+	background-color:#00b33c;
+	border:1px solid #00b33c;
+	transition: .9s;
+}
+
+#contact_form .button .btn-default:hover{
+	border:1px solid white;
+	color:#00b33c;
+	background-color:white;
+}
+
+/**Contact Section Ends**/
+
+
+/**Footer Section Starts**/
+
+#footer{
+	background-color:#00b33c;
+	color:white;
+}
+
+#footer #link a{
+	color:#00e64d;
+}
+
+#footer .fa{
+	color:#006622;
+	background-color:#00e64d;
+}
+/**Footer Section Ends**/

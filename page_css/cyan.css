@@ -1,0 +1,299 @@
+/*****************************************************
+
+	Template Name: Medico -Medical and Health Responsive Template 
+	Author: BootstrapLayouts
+	URI: http://www.bootstraplayouts.com
+
+*********************************************************/
+.web_heading h1{
+	color:#008080;
+}
+
+.line{
+	border:3px solid #00e6e6;	
+}
+
+
+/**Header Section Starts**/
+
+
+.navbar-default{
+	background-color:#008080;
+}
+
+.navbar-default .navbar-brand #name{
+	color:white !important;
+}
+
+.navbar-default .navbar-nav li a{
+	color:white;
+}
+
+#dentist .navbar-header button {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color:#00e6e6 !important;
+	color:black;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color:#00e6e6 !important;
+	color:black;
+}
+
+/**Header Section Ends**/
+
+
+/**OWl Carousel Starts**/
+
+.title_page {
+	background:linear-gradient(rgba(0, 179, 179, 0.5),rgba(0, 179, 179, 0.5)), url("../gallery/dentist3.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:grey;
+}
+
+.title_page .owl-theme .owl-controls .owl-page.active span {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.title_page .owl-theme .owl-controls .owl-page span {
+    border: 2px solid white;
+}
+
+/**OWl Carousel Ends**/
+
+
+/** Web Promotional Section Starts**/
+
+#web_promotional_1{
+	color:white;
+	background:linear-gradient(rgba(0, 179, 179, 0.5),rgba(0, 179, 179, 0.5)), url(../gallery/dentist_quote.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+/** Web Promotional Section Ends**/
+
+
+/**Features Section Starts**/
+
+#features .col-sm-4 .fa{
+	color:#00cc44;
+}
+
+
+/**Features Section Ends**/
+
+
+/**Dentist Services Section Starts**/
+
+.dentist_block{
+	color:white;
+}
+
+#block_1 .col-sm-4 {
+	background-color:#00e6e6;
+}
+
+#block_2 .col-sm-4 {
+	background-color:#00cccc;
+}
+
+#block_1 .col-sm-4 button{
+	background-color:#00e6e6;
+	color:white;
+	border:2px solid white;
+}
+
+#block_2 .col-sm-4 button{
+	background-color:#00cccc;
+	color:white;
+	border:2px solid white;
+}
+/**Dentist Services Section Ends**/
+
+
+/**Why Choose Us Section Starts**/
+
+#why_choose{
+	background-color:#e6ffff;	
+}
+
+#why_choose .row #content_text .fa{
+	color:#00cccc	;	
+}
+
+#why_choose .row #content_text h3{
+	color:#008060;
+}
+/**Why Choose Us Section Ends**/
+
+
+/**Team Section Starts**/
+
+#team .fa{
+	color:#00cccc;
+}
+
+.team_block{
+	color:black;
+	background-color:#e6ffee;
+}
+
+.team_block h3{
+	background-color:#00cccc;
+	color:White;
+	margin-bottom:0px;
+}
+
+.team_block h4{
+	color:#595959;
+}
+
+.team_block:hover h3{
+	background-color:#009999;
+}
+
+.team_block:hover h4{
+	color: #008000;
+}
+
+#team .team_block .fa:hover {
+	color:#80ffff !important;
+}
+
+#team .team_block:hover .fa{
+	color:white;
+	background-color:#00b3b3;
+}
+
+/**Team Section Ends**/
+
+
+/**Price Table Section Starts**/
+
+#price_tbl{
+	background-color:#e6ffff;
+}
+
+.price_table{
+	background-color:#00e6e6;
+	border:1px solid white;
+}
+
+/**Heading**/
+
+.price_table .price_heading{
+	background-color:#008080;
+	color:white;
+}
+
+#price_tbl .price_rupees h1{
+	color:#008080;
+}
+
+#price_tbl .price_rupees h3{
+	color:#008080;
+}
+
+/**Unordered List**/
+
+.price_table .price_lines{
+	background-color:white;
+}
+
+.price_table .price_linea{
+	color:grey;
+	background-color:#ccffff;
+}
+
+.price_table .price_lineb{
+	color:#4d4d4d;
+	background-color:#66ffff;
+}
+
+/**Button**/
+
+.price_table .price_button .btn-default{
+	background-color:#008080;
+	color:white;
+}
+
+.price_table .price_button  .btn-default:hover{
+	background-color:#006666;
+	color:white;
+}
+
+/**Price Table Section Ends**/
+
+
+/**Contact Section Starts**/
+
+#contact{
+	background-color:#006666;
+	color:white;
+}
+
+#contact .web_heading h1{
+	color:#00ffcc;
+}
+
+.address_text_icon .fa{
+	color:#00ffcc;
+}
+
+#contact_form input{
+	background-color:transparent;
+	color:white;
+
+}
+
+#contact_form input:focus{
+	outline:none;
+}
+
+#contact_form textarea{
+	background-color:transparent;
+	color:white;
+}
+
+#contact_form .button .btn-default{
+	color:white;
+	background-color:#00b386;
+	border:1px solid #00b386;
+	transition: .9s;
+}
+
+#contact_form .button .btn-default:hover{
+	border:1px solid white;
+	color:#00b386;
+	background-color:white;
+}
+
+/**Contact Section Ends**/
+
+
+/**Footer Section Starts**/
+
+#footer{
+	background-color:#f2f2f2;
+	color:#006666;
+}
+
+#footer #link a{
+	color:#00b386	;
+}
+
+#footer .fa{
+	color:white;
+	background-color:#006666;
+}
+/**Footer Section Ends**/

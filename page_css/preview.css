@@ -1,0 +1,139 @@
+/*****************************************************
+
+	Template Name: Medico -Medical and Health Responsive Template 
+	Author: BootstrapLayouts
+	URI: http://www.bootstraplayouts.com
+
+*********************************************************/
+html,body{
+	height:100%;
+}
+
+#home{
+	background:url("../gallery/slogan.jpg") center center no-repeat;
+	background-size:cover;
+}
+
+.line{
+	border:3px solid #ffcc00;
+	margin-bottom:70px;
+	width:60px;
+}
+
+.title_page{
+	height:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#preview {
+	padding:50px 0px 50px 0px;
+}
+
+#preview .heading h1{
+	font-weight:bold;
+}
+
+.thumbnail{
+	background-color:#333333;
+	transition: .9s;
+	border:0px;
+	border-radius:0px;
+	overflow:hidden;
+	padding:5px 5px 20px 5px;
+}
+
+.thumbnail .img-scroll{
+	max-height:300px;
+	overflow:hidden;
+}
+
+.thumbnail button{
+	margin-top:15px;
+	background-color:#333333;
+	color:white;
+	border-radius:0px;
+}
+
+.thumbnail button:hover{
+	background-color:white;
+	color:#333333;
+}
+
+@keyframes example {
+    0%   {background-color:red; top:0px; bottom:0px;}
+	100%  {background-color:green; top:-350%; bottom:350%;}
+}
+
+.thumbnail:hover img {
+    width: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+}
+
+.thumbnail a,.thumbnail h4{
+	text-decoration:none;
+	color:#ffcc00;
+	font-weight:bold;
+	margin-top:25px;
+}
+
+.thumbnail p{
+	color:white;
+}
+
+.thumbnail:hover{
+	box-shadow:5px 5px 6px grey;
+}
+
+#features{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#262626;
+	color:white;
+}
+
+#features .row .col-sm-5 h2{
+	color:#ffcc00;
+}
+
+#features .row .col-sm-5 p{
+	line-height:3;
+}
+
+#features .row .col-sm-7{
+	background-color:#262626;
+}
+
+#features .row .col-sm-7 .fa{
+	font-size:60px;
+	color:#ffcc00;
+}
+
+#features .row .col-sm-7 .row .col-sm-6{
+	margin-top:25px;
+}
+
+#preview .btn { border:solid 1px; color:#000;}
+@media (max-width:768px){
+	#features .row .col-sm-5{
+		text-align:center;
+	}
+	
+	#features .row .col-sm-7 .row .col-sm-6{
+		margin-top:70px;
+	}
+}
+
+#footer{
+	background-color:#0d0d0d;
+	color:white;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#footer a{
+	color:#ffcc00;	
+}

@@ -1,0 +1,320 @@
+/*****************************************************
+
+	Template Name: Medico -Medical and Health Responsive Template 
+	Author: BootstrapLayouts
+	URI: http://www.bootstraplayouts.com
+
+*********************************************************/
+.web_heading h1{
+	color:#862d86;
+}
+
+.line{
+	border:3px solid #bf40bf;	
+}
+
+
+/**Header Section Starts**/
+
+
+.navbar-default{
+	background-color:#993399;
+}
+
+.navbar-default .navbar-brand a{
+	color:white;
+}
+
+.navbar-default .navbar-nav li a{
+	color:white;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+	background-color:#bf40bf;
+	color:white;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color:#bf40bf;
+	color:white;
+}
+
+.navbar-header button {
+    background-color: white;
+}
+
+/**Header Section Ends**/
+
+
+/**OWl Carousel Starts**/
+
+.title_page {
+	background:linear-gradient(rgba(217, 140, 217,0.3),rgba(217, 140, 217,0.3)), url("../gallery/back.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:grey;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    border: 2px solid white;
+}
+
+/**OWl Carousel Ends**/
+
+
+/** Web Promotional Section Starts**/
+
+#web_promotional_1{
+	color:white;
+	background:linear-gradient(rgba(217, 140, 217,0.3),rgba(217, 140, 217,0.3)), url(../gallery/slogan.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+/** Web Promotional Section Ends**/
+
+
+/**Features Section Starts**/
+
+#features .col-sm-4 .fa{
+	color:#bf40bf;
+}
+
+
+/**Features Section Ends**/
+
+
+/**Team Section Starts**/
+
+#team{
+	background-color:#f9ecf9;	
+}
+
+#team .fa{
+	color:#bf40bf;
+}
+
+.team_block{
+	color:black;
+	background-color:white;
+}
+
+.team_block h3{
+	background-color:#cc66cc;
+	color:White;
+}
+
+.team_block h4{
+	color:#595959;
+}
+
+.team_block:hover h3{
+	background-color:#862d86;
+}
+
+#team .team_block .fa:hover {
+	color:#ff99e6 !important;
+}
+
+#team .team_block:hover .fa{
+	color:white;
+	background-color:#bf40bf;
+}
+
+/**Team Section Ends**/
+
+
+/**Time Table Section Starts**/
+
+#block_1{
+	background-color:#e6b3e6;
+}
+
+#block_2{
+	background-color:#cc66cc;
+	color:White;
+}
+
+#block_3{
+	background-color:#e6b3e6;
+}
+
+#block_4{
+	background-color:#cc66cc;
+	color:White;
+}
+
+#block_5{
+	background-color:#cc66cc;
+	color:White;
+}
+
+#block_6{
+	background-color:#e6b3e6;
+}
+
+#block_7{
+	background-color:#cc66cc;
+	color:White;
+}
+
+#block_8{
+	background-color:#e6b3e6;
+}
+
+.time_table_block h4{
+	color:black;
+	background-color:#d9d9d9;
+}
+
+.time_table_block h3{
+	color:white;
+	background-color:#862d86;
+}
+
+.time_table_block button{
+	background-color:white;
+	color:black;
+}
+
+/**Time Table Section Ends**/
+
+
+/**Price Table Section Starts**/
+
+#price_tbl{
+	background-color:#f9ecf9;
+}
+
+.price_table{
+	background-color:#df9fdf;
+	border:1px solid white;
+}
+
+/**Heading**/
+
+.price_table .price_heading{
+	background-color:#cc66cc;
+	color:white;
+}
+
+#price_tbl .price_rupees h1{
+	color:#4d004d;
+}
+
+#price_tbl .price_rupees h3{
+	color:#4d004d;
+}
+/**Columns**/
+
+.price_table .col-xs-12.col-sm-6.col-md-3.col-lg-3:hover{
+	background-color:#800080;
+	overflow:hidden;
+}
+
+/**Unordered List**/
+
+.price_table .price_lines{
+	background-color:white;
+}
+
+.price_table .price_linea{
+	color:grey;
+	background-color:#f3d8f3;
+}
+
+.price_table .price_lineb{
+	color:#4d4d4d;
+	background-color:#edc4ed;
+}
+
+/**Button**/
+
+.price_table .price_button .btn-default{
+	background-color:#cc66cc;
+	color:white;
+}
+
+.price_table .price_button  .btn-default:hover{
+	background-color:#bf40bf;
+	color:white;
+}
+
+/**Price Table Section Ends**/
+
+
+/**Contact Section Starts**/
+
+#contact{
+	background-color:#4d004d;
+	color:white;
+}
+
+#contact .web_heading h1{
+	color:#ff80df;
+}
+
+#contact .line{
+
+}
+.address_text_icon .fa{
+	color:#ff80df;
+}
+
+#contact_form input{
+	background-color:transparent;
+	color:white;
+
+}
+
+#contact_form input:focus{
+	outline:none;
+}
+
+#contact_form textarea{
+	background-color:transparent;
+	color:white;
+}
+
+#contact_form .button .btn-default{
+	color:white;
+	background-color:#993399;
+	border:1px solid #993399;
+	transition: .9s;
+}
+
+#contact_form .button .btn-default:hover{
+	border:1px solid white;
+	color:#993399;
+	background-color:white;
+}
+
+/**Contact Section Ends**/
+
+
+/**Footer Section Starts**/
+
+#footer{
+	background-color:#993399;
+	color:white;
+}
+
+#footer #link a{
+	color: #ff80df;
+}
+
+#footer .fa{
+	color:#862d86;
+	background-color:#ff80df;
+}
+/**Footer Section Ends**/
